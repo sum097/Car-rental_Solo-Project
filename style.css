@@ -296,3 +296,149 @@ header{
     color: var(--primary);
     padding: 0 4px;
 }
+
+
+/* Value */
+
+
+.value__row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.value__all{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex: 1;
+    gap: 20px;
+}
+
+.value__img__wrapper{
+    width: 100%;
+}
+
+.value__header__img{
+    width: 100%;
+    height: 100%;
+}
+
+.value__text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    justify-content: space-around reverse;
+    max-width: 560px;
+    
+}
+
+.value__logo__text{
+    width: 50%;
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 24px;
+    
+}
+
+.value__logo{
+    display: flex;
+    padding: 4px 52px;
+    
+}
+
+.value__logo__content{
+    display: flex;
+    flex-direction: column;
+    padding: 4px 12px;
+}
+
+.value__logo__title{
+    padding: 8px 0;
+    font-size: 24px;
+}
+
+.value__logo__para{
+    padding: 8px 0;
+    font-size: 14px;
+    color: gray;
+}
+
+.value__text__subtext{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.value__text__title{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 12px 0;
+}
+
+.value__text__para{
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    padding: 12px 0;
+}
+
+.value__text__btns{
+    display: flex;
+    padding: 12px 0;
+}
+
+.value__text__btn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 28px;
+    color: white;
+    background-color: var(--primary);
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    transition: 200ms ease;
+}
+
+.value__text__btn:hover{
+    background-color: #f64124;
+}
+
+
+/* Testimonials */
+
+.review__row{
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+}
+
+.review__context{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 4px;
+    padding: 48px 0px;
+}
+
+.review__context__subtext{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.review__context__title{
+    font-size: 44px;
+    font-weight: 700;
+
+}
+
+.review__context__para{
+    max-width: 700px;
+    margin-top: 16px;
+    color: gray;
+    
+}
+
