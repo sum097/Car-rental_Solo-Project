@@ -300,6 +300,9 @@ header{
 
 /* Value */
 
+#value{
+    height: 92vh;  /* Weird way to set a hieght of the value container, but it works!*/
+}
 
 .value__row{
     display: flex;
@@ -409,10 +412,16 @@ header{
 
 /* Testimonials */
 
+#review{
+    background-color: #f8f8f8;
+    height: 60vh;
+}
+
 .review__row{
     display: flex;
     flex-direction: column;
-    background-color: #f8f8f8;
+    align-items: center;
+    justify-content: center;
 }
 
 .review__context{
@@ -430,7 +439,7 @@ header{
 }
 
 .review__context__title{
-    font-size: 44px;
+    font-size: 40px;
     font-weight: 700;
 
 }
@@ -439,6 +448,74 @@ header{
     max-width: 700px;
     margin-top: 16px;
     color: gray;
-    
 }
 
+.review__testimonials{
+    display: flex;
+    margin-top: 56px;
+    gap: 24px;
+}
+
+.testimonial{
+    background-color: white;
+    max-width: 540px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 56px;
+    gap: 40px;
+    box-shadow: 0 20px 40px 0 rgba(0,0,0,0.08);
+}
+
+.testimonial__info{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.testimonial__img__wrapper{
+    width: 72px;
+    height: 72px;
+    border-radius: 9999px;
+    overflow: hidden;
+}
+
+.testimonial__img{
+    width: 100%;
+    height: 100%;
+}
+
+.testimonial__profile{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.testimonial__para{
+    font-size: 22px;
+}
+
+.testimonial__profile__name{
+    font-size: 20px;
+}
+
+.testimonial__profile__location{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.testimonial__info__logo{
+    margin-left: auto;
+    font-size: 48px;
+    color: var(--primary)
+}
+
+
+/* Download */
+
+#download{
+    background-image: url(assets/download-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
