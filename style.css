@@ -174,7 +174,7 @@ header {
   max-width: auto;
   margin: 0 auto;
   position: relative;
-  height: 80%;
+  height: 100%;
 }
 
 .header__text {
@@ -192,7 +192,7 @@ header {
   position: absolute;
   z-index: 2;
   right: -40px;
-  width: 70%;
+  width: 65%;
   margin-top: 56px;
 }
 
