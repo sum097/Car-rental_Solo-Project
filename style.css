@@ -148,7 +148,7 @@ nav {
 }
 
 header {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #f8f8f8;
   overflow: hidden;
 }
@@ -756,7 +756,7 @@ header {
   /* Value */
 
   #value {
-    height: 115vh;
+    min-height: 115vh;
   }
 
   .value__all {
@@ -793,7 +793,7 @@ header {
   /* Review */
 
   #review {
-    height: 95vh;
+    min-height: 95vh;
   }
 
   .review__testimonials {
@@ -862,7 +862,7 @@ header {
   /* Value */
 
   #value {
-    height: 105vh;
+    min-height: 105vh;
   }
 
   .value__text {
@@ -947,36 +947,34 @@ header {
   .banner__title__small {
     font-size: 18px;
   }
-  
 
   /* Value */
 
-  #value{
-    height: 125vh;
+  #value {
+    min-height: 125vh;
   }
 
-  .value__logo__text{
+  .value__logo__text {
     width: 100%;
   }
 
-  .value__logo{
+  .value__logo {
     flex-direction: column;
   }
 
   /* Testimonials */
 
-  .testimonial{
-    padding:30px;
+  .testimonial {
+    padding: 30px;
   }
 
-  .testimonial__para{
+  .testimonial__para {
     font-size: 18px;
   }
 
-
   /* Download */
 
-  .download__logo{
+  .download__logo {
     flex-direction: column;
     width: 100%;
     justify-content: center;
@@ -984,39 +982,38 @@ header {
     gap: 12px;
   }
 
-  .download__info__para{
+  .download__info__para {
     padding: 8px 0;
   }
 
-
   /* Footer */
 
-  .footer__content{
+  .footer__content {
     width: 100%;
     align-items: center;
   }
 
-  .footer__rental__para{
+  .footer__rental__para {
     text-align: center;
   }
 
-  .footer__rental__contact{
+  .footer__rental__contact {
     align-items: center;
   }
 
-  .footer__company__links{
+  .footer__company__links {
     align-items: center;
   }
 
-  .footer__working__hours{
+  .footer__working__hours {
     align-items: center;
   }
 
-  .footer__sub__para{
+  .footer__sub__para {
     text-align: center;
   }
 
-  .footer__sub__form{
+  .footer__sub__form {
     width: 100%;
   }
 }
