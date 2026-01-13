@@ -29,7 +29,23 @@
           <a href="#" class="nav__link">Sign In</a>
           <button class="nav__btn__register">Register</button>
         </div>
+        <button class="nav__menu" onclick="openMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </button>
       </div>
+    </nav>
+    <nav class="menu">
+        <button class="menu__close" onclick="closeMenu()">
+            <i class="fa-solid fa-x"></i>
+        </button>
+        <div class="menu__links">
+            <a href="#" class="menu__link" onclick="closeMenu()">Home</a>
+            <a href="#" class="menu__link" onclick="closeMenu()">About</a>
+            <a href="#" class="menu__link" onclick="closeMenu()">Vehicle Models</a>
+            <a href="#" class="menu__link" onclick="closeMenu()">Testimonials</a>
+            <a href="#" class="menu__link" onclick="closeMenu()">Our Team</a>
+            <a href="#" class="menu__link" onclick="closeMenu()">Contact</a>
+        </div>
     </nav>
     <header>
       <div class="container">
@@ -45,7 +61,10 @@
               flexible pick-up and much more.
             </p>
             <div class="header__btns">
-              <button class="header__btn__book">Book Ride ></button>
+              <button class="header__btn__book">
+                Book Ride
+                <i class="fa-regular fa-circle-check header__text__btn__icon" aria-hidden="true"></i>
+              </button>
               <button class="header__btn__learn">Learn More ></button>
             </div>
           </div>
@@ -98,7 +117,7 @@
       </section>
       <section id="banner">
         <div class="banner__container">
-          <div class="row">
+          <div class="row banner__row">
             <h2 class="banner__title">Save big with our cheap car rental!</h2>
             <h4 class="banner__title__small">
               Top Airports. Local Suppliers.
